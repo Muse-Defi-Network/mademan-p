@@ -43,24 +43,24 @@ export default function Home() {
 
           <a href="https://chat.whatsapp.com/E4onwdYTQMs5RLhAIzhmL5" className={styles.card}>
             <h2>WhatsApp &rarr;</h2>
-            <p>Connect with like minded members and get group support.</p>
+            <p>Connect & vibe with like minded members and get support.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://github.com/Muse-Defi-Network/landing-page"
             className={styles.card}
           >
-            <h2>Build &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>GitHub &rarr;</h2>
+            <p>Clone the repo for this page and deploy in you local environment.</p>
           </a>
 
           <a
-            href="/contact"
+            href="https://www.ahzudirecttech.com/"
             className={styles.card}
           >
             <h2>Contact &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Reach out to us concerning inquires or feature requests.
             </p>
           </a>
         </div>
@@ -68,13 +68,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://opencollective.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          &copy; 2022 Muse Defi Network | Protected by <span className={styles.ftitle}> Open Collective
           </span>
         </a>
       </footer>

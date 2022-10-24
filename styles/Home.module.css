@@ -37,6 +37,11 @@
   flex-grow: 1;
 }
 
+.ftitle {
+  font-size: 1rem;
+  margin-left:0.3em;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
