@@ -12,14 +12,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-        MUSE <a href="/"> DEFI</a>
-        </h1>
+        <div>
+          <h1 className={styles.title}>
+          MUSE DEFI <span>NETWORK</span>
+          </h1>
+        </div>
 
-        <p className={styles.description}>
-          Sponsor a project{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
