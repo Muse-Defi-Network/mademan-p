@@ -1,15 +1,24 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  padding: 0rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hero {
+  padding: 3em;
+  width: 100%;
+  color:#111;
+  border-bottom:solid 1px #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer {
@@ -36,13 +45,14 @@
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5rem;
+  margin-bottom: 0.5em;
 }
 
 .title,
@@ -68,14 +78,14 @@
 .grid {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   max-width: 800px;
 }
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 2.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
@@ -88,8 +98,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #3a3a3a;
+  border-color: #a9a9a9;
 }
 
 .card h2 {

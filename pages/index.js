@@ -12,37 +12,53 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
-          <h1 className={styles.title}>
+        <header>
+          <div>
+            <nav>
+              
+            </nav>
+            <div>
+              
+            </div>
+          </div>
+        </header>
+        <section className={styles.hero}>
+          <div>
+              <h1></h1>
+          </div>
+          <div>
+              <h1 className={styles.title}>
           MUSE DEFI <span>NETWORK</span>
           </h1>
-        </div>
+          </div>
+        
+        </section>
 
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://opencollective.com/muse-defi-network" className={styles.card}>
+            <h2>Open Collective &rarr;</h2>
+            <p>Become a Contributor and join a thriving community of creators. </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://chat.whatsapp.com/E4onwdYTQMs5RLhAIzhmL5" className={styles.card}>
+            <h2>WhatsApp &rarr;</h2>
+            <p>Connect with like minded members and get group support.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
+            <h2>Build &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/contact"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Contact &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
