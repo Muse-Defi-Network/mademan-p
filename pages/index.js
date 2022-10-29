@@ -64,6 +64,36 @@ export default function Home() {
             </p>
           </a>
         </div>
+        
+        <div className={styles.grid}>
+          <a href="https://opencollective.com/muse-defi-network" className={styles.card}>
+            <h2>Open Collective &rarr;</h2>
+            <p>Become a Contributor and join a thriving community of creators. </p>
+          </a>
+
+          <a href="https://chat.whatsapp.com/E4onwdYTQMs5RLhAIzhmL5" className={styles.card}>
+            <h2>WhatsApp &rarr;</h2>
+            <p>Connect & vibe with like minded members and get support.</p>
+          </a>
+
+          <a
+            href="https://github.com/Muse-Defi-Network/landing-page"
+            className={styles.card}
+          >
+            <h2>GitHub &rarr;</h2>
+            <p>Clone the repo for this page and deploy in you local environment.</p>
+          </a>
+
+          <a
+            href="https://www.ahzudirecttech.com/"
+            className={styles.card}
+          >
+            <h2>Contact &rarr;</h2>
+            <p>
+              Reach out to us concerning inquires or feature requests.
+            </p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>
