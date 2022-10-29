@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div>
               <h1 className={styles.title}>
-          MUSE DEFI <span>NETWORK</span>
+          MUSE DEFI <span></span>
           </h1>
           </div>
         
@@ -64,8 +64,8 @@ export default function Home() {
             </p>
           </a>
         </div>
-        
-        <div className={styles.grid}>
+
+        <div className={styles.grid-2}>
           <a href="https://opencollective.com/muse-defi-network" className={styles.card}>
             <h2>Open Collective &rarr;</h2>
             <p>Become a Contributor and join a thriving community of creators. </p>
